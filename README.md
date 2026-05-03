@@ -19,10 +19,8 @@ Le dataset GTSRB contient :
 
 ###  Utilisation dans ce projet
 
-Pour accélérer les expérimentations :
+Pour accélérer les expérimentations nous avons utlisé que 40% du dataset
 
-- 20 % du dataset → entraînement + validation  
-- 10 % du dataset → inférence (non vu par le modèle)  
 
 ---
 
@@ -68,7 +66,7 @@ Les images sont transformées comme suit :
 
 ##  Entraînement
 
-Le modèle est entraîné sur 20 % du dataset avec :
+Le modèle est entraîné sur 40 % du dataset total avec :
 
 - 80 % pour l’entraînement  
 - 20 % pour la validation  
@@ -84,11 +82,7 @@ Les métriques suivies sont :
 
 Le modèle est sauvegardé au format : cnn_gtsrb.pth
 
-## Inférence
 
-L’inférence est réalisée sur 10 % du dataset total
-
----
 
 
 
